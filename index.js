@@ -1,9 +1,7 @@
 function dummy() {}
 
-module.exports = function() {
-  return {
-    info: dummy,
-    debug: dummy,
-    error: dummy
-  }
+module.exports = {
+  info: dummy,
+  debug: dummy,
+  error: dummy
 }

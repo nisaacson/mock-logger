@@ -1,0 +1,23 @@
+{
+  "name": "mock-logger",
+  "version": "1.0.0",
+  "description": "Supress all log messages for use in testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/mock-logger.git"
+  },
+  "keywords": [
+    "winston"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "88d3e52f1cceb5305894dfba0abfd4915ce6c3f1",
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  }
+}
